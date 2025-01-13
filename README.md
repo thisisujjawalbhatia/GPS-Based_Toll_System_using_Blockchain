@@ -10,6 +10,8 @@ This project is a blockchain-based toll application that leverages various techn
 - **Express**: A web application framework for Node.js.
 - **Web3.js**: A JavaScript library for interacting with the Ethereum blockchain.
 
+# Preview
+[Android application](../Assets/home.png)
 ## Project Structure
 
 - [Backend](./Backend): This folder contains the backend code that handles user authentication and toll booth geolocation using Strapi.
