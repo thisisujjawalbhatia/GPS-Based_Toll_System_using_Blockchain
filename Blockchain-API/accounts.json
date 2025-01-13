@@ -1,0 +1,52 @@
+{
+  "mainAccount": {
+    "public": "0xB0BD832ed7545f9722522C6518aA20710bFb83B5",
+    "private": "0xa9977feabbfbd1e65f3bc48445f3b0e96130ebf4e95775c00144bee2350c347b"
+  },
+  "availableAccounts": [
+    {
+      "public": "0x80807929fAd83935C77fA8050630c8165CA20B3A",
+      "private": "0xe6f73b5d29c3807b3bba942c45bc4a5dd8c4ff7cac3225685b7fc4cdf47fdde8"
+    },
+    {
+      "public": "0xd535564bA275848F113a93109cCdB68ef45906C1",
+      "private": "0x10fa216172ab78c74180a74e42901faa179230a30c26584a530e3a6c38f8f478"
+    },
+    {
+      "public": "0x52012e8f614d176A1928c6924e1Ce4cCA1807F59",
+      "private": "0x30cd9cd5d5a780b1002c59d161b002cae02e7502528b340f49e69a8d19afa50f"
+    },
+    {
+      "public": "0x7266bF4d8a86De111b03837ADE8d9AFbA8512337",
+      "private": "0x9a846ef23f8b6fc7102f0e257c3b8584406382436414890cc73f6e56c8413d0a"
+    },
+    {
+      "public": "0xc6f48C69CE5E1C00a754b46C249A93302932B7fc",
+      "private": "0x52fba8dcc2f70b42050345eb944c45580a2f02894b4abcc4b3f1ff4e8b4f50f7"
+    }
+  ],
+  "userAccounts": [
+    {
+      "public": "0x131767fcEf515f0788B68e9D1a2D660250868fAB",
+      "private": "0x5fcd3c3fa7ca1cfcef52218519cea9d63921a1dbc279ac5c6fbeafb7fad25554",
+      "userId": "1"
+    },
+    {
+      "public": "0x12B2c5A5586af075caEE6b2355A5d6D036B9763a",
+      "private": "0xf6a674211a55048ccf71f769610fbc606816b0dac189c6ca16c05175e12bbd59",
+      "userId": "3"
+    }
+  ],
+  "tollAccounts": [
+    {
+      "public": "0x93eE81BDAC9B044E309080fC97982ab27c644c1D",
+      "private": "0x4119262939601787f00955ee026ba2adb48e7e1ed7c18c8e9f70789b3e051af0",
+      "tollId": "1"
+    },
+    {
+      "public": "0xDb080DF17B56E3b0029Ea4491657fA732e982eE9",
+      "private": "0xd65c688acc50f636eb13126fa59c9d55c82985e3379f05c7070839177e0b279c",
+      "tollId": "9"
+    }
+  ]
+}

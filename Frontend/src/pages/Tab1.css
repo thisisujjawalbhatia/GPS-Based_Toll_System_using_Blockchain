@@ -1,0 +1,150 @@
+.main{
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    overflow: hidden;
+}
+
+.top{
+    margin-top: 12vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+.top .t1{
+    font-weight: 300;
+    color: var(--ion-color-primary);
+    font-size: 35px;
+}
+.top .t2{
+    font-weight: medium;
+    font-size: 55px;
+}
+.top .t3{
+    color: #757A7C;
+    font-weight: 300;
+    font-size: 20px;
+}
+.tracking{
+    display: flex;
+    font-size: 20px;
+    margin-top: 10vh;
+    margin-left: 20px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 300;
+}
+.acc{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.acc .b1{
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    min-width: 47vw;
+}
+.acc .b1 .b1t{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.acc .b1 .bal{
+    color: #3EC070;
+    font-size: 42px;
+    line-height: 70px;
+}
+.acc .b2{
+    background-color: #262626;
+    padding: 15px;
+    border-radius: 20px;
+}
+.acc .b2 .b2t{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.acc .b2 .eh{
+    margin-right: 5px;
+}
+#open-modal{
+    display: none;
+}
+
+.tolls{
+    width: 100vw;
+    padding-left : 20px;
+    padding-right: 20px;
+}
+.tolls .th{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.toll{
+    width: 100%;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.toll .aaaaaa{
+    display: flex;
+    
+}
+.toll .ic{
+    background-color: #4285F4;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+.toll .ic svg{
+    margin-left: 5px;
+}
+.toll .tdetails{
+    font-size: 15px;
+    color: #4285F4;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    border-left: 1px solid #303030;
+}
+.toll .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.toll .cont .tic{
+    color: #4285F4;
+}
+.toll .cont .tname{
+    display: flex;
+    font-size: 20px;
+}
+.toll .cont .tdate{
+    font-size: 14px;
+}
+.toll .cont .tprice{
+    color: #3EC070;
+    font-size: 22px;
+    margin-top: 5px;
+}

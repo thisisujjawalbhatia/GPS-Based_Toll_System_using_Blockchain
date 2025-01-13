@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "toll_booths",
+  "info": {
+    "singularName": "toll-booth",
+    "pluralName": "toll-booths",
+    "displayName": "toll_booth",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "decimal"
+    },
+    "location": {
+      "type": "customField",
+      "customField": "plugin::strapi-leaflet-geoman.geojson"
+    }
+  }
+}
