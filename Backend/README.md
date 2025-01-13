@@ -1,6 +1,11 @@
 # Blockchain Backend
 This is the backend microservice that handles User Authentication and storing Toll Booth geolocation, it also functions as the main admin panel for managing Users and Toll Booths. It is built using Strapi, a headless CMS that allows for easy creation of APIs.
 
+## Getting Started
+
+Run the following command to start the postgres database
+`docker-compose up` 
+
 ## built using Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.

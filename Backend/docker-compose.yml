@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgis/postgis:13-3.1  # PostGIS 3.1 with PostgreSQL 13
+    container_name: postgres_postgis
+    environment:
+      POSTGRES_USER: admin         # Replace with your username
+      POSTGRES_PASSWORD: admin # Replace with your password
+      POSTGRES_DB: toll_application       # Replace with your database name
+    ports:
+      - "5432:5432"  # Maps the PostgreSQL port to the host
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persists data even if the container stops
+    
+volumes:
+  postgres_data:
+    driver: local
